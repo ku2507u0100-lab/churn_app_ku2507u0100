@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 import numpy as np
 
-model = pickle.load(open('model100.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 model_columns = pickle.load(open('columns.pkl', 'rb'))
 
 st.title("Customer Churn Predictor")
